@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.21.xsd">
+
+    <changeSet id="2024-10-23-create-users-table" author="ekaterina">
+        <sqlFile path="test-tracker/2024-10-23-create-users-table.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="2024-10-23-create-projects-table" author="ekaterina">
+        <sqlFile path="test-tracker/2024-10-23-create-projects-table.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="2024-10-23-create-records-table" author="ekaterina">
+        <sqlFile path="test-tracker/2024-10-23-create-records-table.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="2024-10-23-add-foreign-keys-to-records" author="ekaterina">
+        <sqlFile path="test-tracker/2024-10-23-add-foreign-keys-to-records.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+</databaseChangeLog>
